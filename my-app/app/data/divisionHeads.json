@@ -1,0 +1,37 @@
+[
+    {
+      "name": "Tanisha Rana",
+      "division": "Media",
+      "bio": "Leading workshops and hackathons to develop technical skills.",
+      "image": "/placeholder-div1.jpg",
+      "linkedin": "https://linkedin.com/in/taylorwilliams"
+    },
+    {
+      "name": "Raghav",
+      "division": "Graphics",
+      "bio": "Organizing events that blend art, music and technology.",
+      "image": "/placeholder-div2.jpg",
+      "linkedin": "https://linkedin.com/in/jordanlee"
+    },
+    {
+      "name": "Casey Zhang",
+      "division": "Culture",
+      "bio": "Developing curriculum for peer-to-peer learning initiatives.",
+      "image": "/placeholder-div3.jpg",
+      "linkedin": "https://linkedin.com/in/caseyzhang"
+    },
+    {
+      "name": "Riley Park",
+      "division": "Promotion",
+      "bio": "Building partnerships with industry and community organizations.",
+      "image": "/placeholder-div4.jpg",
+      "linkedin": "https://linkedin.com/in/rileypark"
+    },
+    {
+      "name": "Nihar Sandhu",
+      "division": "Organizing",
+      "bio": "Building partnerships with industry and community organizations.",
+      "image": "/placeholder-div4.jpg",
+      "linkedin": "https://linkedin.com/in/rileypark"
+    }
+  ]

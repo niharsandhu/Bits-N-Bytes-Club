@@ -1,0 +1,16 @@
+[
+    {
+      "name": "hola amigo",
+      "role": "President",
+      "bio": "Computer Science senior with a passion for AI and community building.",
+      "image": "/placeholder-head1.jpg",
+      "linkedin": "https://linkedin.com/in/alexmorgan"
+    },
+    {
+      "name": "booyah",
+      "role": "Vice President",
+      "bio": "Full-stack developer focused on creating educational tech experiences.",
+      "image": "/placeholder-head2.jpg",
+      "linkedin": "https://linkedin.com/in/jamiechen"
+    }
+  ]
