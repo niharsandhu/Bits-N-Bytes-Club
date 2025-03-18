@@ -49,7 +49,7 @@ export default function Events() {
     const fetchEvents = async () => {
       try {
         setIsLoading(true)
-        const { data } = await axios.get('${backendUrl}/api/events/getAllEvents')
+        const { data } = await axios.get(`${backendUrl}/api/events/getAllEvents`)
         
         // Sort events by date (assuming date is in format YYYY-MM-DD)
         const sortedEvents = data.events.sort((a: { date: string }, b: { date: string }) => {

@@ -38,13 +38,14 @@ export default function Home() {
   const [isMounted, setIsMounted] = useState(false);
   const [allEvents, setAllEvents] = useState<Event[]>([]);
   const [currentEventIndex, setCurrentEventIndex] = useState(0);
+  const backendUrl = process.env.NEXT_PUBLIC_BACKEND_SERVER;
   const heroRef = useRef<HTMLDivElement>(null);
 
   // Fetch events data from the API
   useEffect(() => {
     const fetchEvents = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/api/events/getAllEvents");
+        const response = await axios.get(`${backendUrl}/api/events/getAllEvents`);
         setAllEvents(response.data.events);
       } catch (error) {
         console.error("Error fetching events:", error);
