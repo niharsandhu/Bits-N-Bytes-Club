@@ -25,11 +25,12 @@ app.use(helmet()); // Adds security headers
 app.use(morgan('combined')); // Logging
 
 const corsOptions = {
-  origin: 'https://bnb-black.vercel.app',
+  origin: ['https://bnb-black.vercel.app', 'http://localhost:3000'],
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
   optionsSuccessStatus: 200,
 };
+
 
 app.use(cors(corsOptions));
 
